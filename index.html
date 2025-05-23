@@ -13,9 +13,11 @@
 <body>
 <h1>This is version 4.0</h1>
 <p id="this_hostname"></p>
+<p id="this_location"></p>
 <script>
-let hostname = location.hostname;
+let get_hostname = location.hostname;
 document.getElementById("this_hostname").innerHTML = hostname;
+document.getElementById("this_location").innerHTML = location;
 </script>
 </body>
 </html>
